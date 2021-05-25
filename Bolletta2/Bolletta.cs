@@ -11,21 +11,19 @@ namespace Bolletta2
         public decimal Quota { get; } = 40;
         public int Consumo { get; set; }
         public Utente Utente { get; set; }
-
         public decimal Costo { get; set; }
 
-        public Bolletta(){}
+        public Bolletta() { }
 
         // bolletta è fatta da utente e consumo
         // costruttore 
         public Bolletta(int consumo, Utente utente)
         {
             Consumo = consumo;
-            Utente = utente; 
+            Utente = utente;
         }
 
         // calcolo il costo della bolletta 
-        // in questo modo faccio i calcoli 
         public void CalcoloCostoBolletta()
         {
             Costo = (Consumo * 10) + Quota;

@@ -38,7 +38,7 @@ namespace Bolletta2
         }
 
         // metodo per chiedere dati all'utente per creare la bolletta
-        private static void InserisciDati( ref Bolletta bolletta)
+        private static void InserisciDati(ref Bolletta bolletta)
         {
             // creo un utente da rimpeire con i dati che richiedo 
             // l'utente mi serve per crare la bolletta
@@ -69,7 +69,7 @@ namespace Bolletta2
 
             // non è necessario ritornare qualcosa perchè 
             // il metodo è creato per modificare il riferiemtno della bolletta che ci è stata passata
- 
+
         }
     }
 }
